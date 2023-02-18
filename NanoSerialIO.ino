@@ -272,7 +272,7 @@ void checkSerial(){
       StoreIOConfig();
     }
     else if(command=="IOT"){
-      Serial.println("OK");
+      ack();
       reportIOTypes();
     }
     
